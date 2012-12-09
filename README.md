@@ -9,6 +9,10 @@ Create capfile
 
     $ capify .
 
+Copy recipes you need (nginx, postgresql, unicorn, rbenv, etc...)
+
+Change name of app where needed
+
 SSH to server
 
     $ ssh root@0.0.0.0
