@@ -17,8 +17,7 @@ development:
   encoding: unicode
   database: rails-vps_development
   pool: 5
-  username: rails-vps
-  password:
+
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +42,11 @@ test:
   encoding: unicode
   database: rails-vps_test
   pool: 5
-  username: rails-vps
-  password:
+
 
 production:
   adapter: postgresql
   encoding: unicode
   database: rails-vps_production
   pool: 5
-  username: rails-vps
-  password:
+
