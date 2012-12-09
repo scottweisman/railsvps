@@ -5,7 +5,7 @@ namespace :rbenv do
   desc "Install rbenv, Ruby, and the Bundler gem"
   task :install, roles: :app do
     run "#{sudo} apt-get -y install curl git-core"
-    run %q{sed "s/sudo/sudo -p 'sudo password: '/g" $HOME/.rbenv/plugins/rbenv-installer/bin/rbenv-} + rbenv_bootstrap + " | bash"
+    run "#{sudo} apt-get -y install build-essential zlib1g-dev libssl-dev libreadline-gplv2-dev"
     bashrc = <<-BASHRC
 if [ -d $HOME/.rbenv ]; then
   export PATH="$HOME/.rbenv/bin:$PATH"
