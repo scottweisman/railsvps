@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: rails-vps_development
+  database: railsvps_development
   pool: 5
 
 
@@ -40,13 +40,13 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: rails-vps_test
+  database: railsvps_test
   pool: 5
 
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: rails-vps_production
+  database: railsvps_production
   pool: 5
 

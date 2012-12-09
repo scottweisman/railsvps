@@ -11,7 +11,7 @@ load "config/recipes/check"
 server "208.68.38.41", :web, :app, :db, primary: true
 
 set :user, "deployer"
-set :application, "rails-vps"
+set :application, "railsvps"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
