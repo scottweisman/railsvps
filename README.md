@@ -35,4 +35,4 @@ Cap Setup
 
 Cap Deploy
 
-   $ cap deploy:cold
+    $ cap deploy:cold
