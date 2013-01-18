@@ -13,6 +13,8 @@ Copy recipes you need (nginx, postgresql, unicorn, rbenv, etc...)
 
 Change name of app where needed
 
+Get server: Ubuntu 10.04 x64
+
 SSH to server
 
     $ ssh root@0.0.0.0
