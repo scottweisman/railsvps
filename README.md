@@ -1,4 +1,4 @@
-# This is an app with example Capistrano recipes
+# This is a Sample app to deploy Rails to a VPS using Capistrano recipes
 
 Uncomment gems
 
@@ -9,11 +9,13 @@ Create capfile
 
     $ capify .
 
-Copy recipes you need (nginx, postgresql, unicorn, rbenv, etc...)
+Copy recipes you need from this sample app (nginx, postgresql, unicorn, rbenv, etc...)
 
-Change name of app where needed
+Copy Capfile from this app
 
-Get server: Ubuntu 10.04 x64
+Change name of the app and ip address where needed (deploy.rb)
+
+Go get a server: Ubuntu 10.04 x64
 
 SSH to server
 
