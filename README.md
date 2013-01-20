@@ -44,3 +44,7 @@ Cap Setup
 Cap Deploy
 
     $ cap deploy:cold
+
+Future changes can be pushed with cap deploy
+
+    $ cap deploy
