@@ -22,3 +22,11 @@ namespace :rails do
     exec "ssh -l #{user} #{hostname} -t 'source ~/.profile && #{current_path}/script/rails c #{rails_env}'"
   end
 end
+
+desc "tail log files"
+task :tail, :roles => :app do
+  run "tail -f #{shared_path}/log/#{rails_env}.log" do |channel, stream, data|
+    puts "#{channel[:host]}: #{data}"
+    break if stream == :err
+  end
+end

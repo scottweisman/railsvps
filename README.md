@@ -52,3 +52,7 @@ Future changes can be pushed with cap deploy
 Run Rails Console on server
 
     $ cap rails:console
+
+Tail logs
+
+    $ cap tail
