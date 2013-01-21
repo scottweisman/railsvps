@@ -1,4 +1,4 @@
-# This is a Sample app to deploy Rails to a VPS using Capistrano recipes
+# Sample app to deploy Rails to a VPS using Capistrano recipes
 
 Uncomment gems
 
@@ -48,3 +48,7 @@ Cap Deploy
 Future changes can be pushed with cap deploy
 
     $ cap deploy
+
+Run Rails Console on server
+
+    $ cap rails:console
