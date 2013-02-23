@@ -1,7 +1,7 @@
 # Sample app to deploy Rails to a VPS using Capistrano recipes
 Based primarly on
 [Railscasts episode #337](http://railscasts.com/episodes/337-capistrano-recipes).
-<hr>
+***
 
 Uncomment gems
 
@@ -18,7 +18,8 @@ Copy Capfile from this app
 
 Change name of the app and ip address where needed (deploy.rb)
 
-Go get a server: Ubuntu 10.04 x64
+Go get a server: [http://digitalocean.com](http://digitalocean.com)
+- Recommended setup: Ubuntu 10.04 x64
 
 SSH to server
 
