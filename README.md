@@ -12,7 +12,7 @@ Create capfile
 
     $ capify .
 
-Copy recipes you need from this sample app (nginx, postgresql, unicorn, rbenv, etc...)
+Copy recipes you need from this sample app in config/recipes (nginx, postgresql, unicorn, rbenv, etc...)
 
 Copy Capfile from this app
 
