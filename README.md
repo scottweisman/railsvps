@@ -1,6 +1,6 @@
 # Sample app to deploy Rails to a VPS using Capistrano recipes
-Based primarly on
-[Railscasts episode #337](http://railscasts.com/episodes/337-capistrano-recipes).
+Check out
+[Railscasts episode #337](http://railscasts.com/episodes/337-capistrano-recipes) for more info.
 ***
 
 Uncomment gems
