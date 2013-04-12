@@ -27,7 +27,7 @@ SSH to server
 
 Create new user named deployer with admin privileges
 
-    $ sudo adduser deployer
+    $ adduser deployer --ingroup sudo
 
 Give new user admin privileges
 
