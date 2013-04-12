@@ -8,7 +8,7 @@ load "config/recipes/nodejs"
 load "config/recipes/rbenv"
 load "config/recipes/check"
 
-server "208.68.38.41", :web, :app, :db, primary: true
+server "198.199.74.105", :web, :app, :db, primary: true
 
 set :user, "deployer"
 set :application, "railsvps"
