@@ -1,4 +1,4 @@
-set_default :ruby_version, "1.9.3-p194"
+set_default :ruby_version, "1.9.3-p374 "
 set_default :rbenv_bootstrap, "bootstrap-ubuntu-12-04"
 
 namespace :rbenv do
@@ -18,6 +18,7 @@ BASHRC
     run %q{export PATH="$HOME/.rbenv/bin:$PATH"}
     run %q{eval "$(rbenv init -)"}
     run %q{sed "s/sudo/sudo -p 'sudo password: '/g" $HOME/.rbenv/plugins/rbenv-installer/bin/rbenv-} + rbenv_bootstrap + " | bash"
+    run "#{sudo} apt-get install make"
     run "rbenv install #{ruby_version}"
     run "rbenv global #{ruby_version}"
     run "gem install bundler --no-ri --no-rdoc"
