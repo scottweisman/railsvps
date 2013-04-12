@@ -19,7 +19,7 @@ Copy Capfile from this app
 Change name of the app and ip address where needed (deploy.rb)
 
 Go get a server: [http://digitalocean.com](http://digitalocean.com)
-- Recommended setup: Ubuntu 10.04 x64
+- Recommended setup: Ubuntu 12.04 x64 Server
 
 SSH to server
 
